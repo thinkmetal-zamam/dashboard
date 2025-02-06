@@ -36,15 +36,17 @@ export default function Page() {
             className="md:block hidden"
             height={760}
             alt="Screenshots of the dashboard project showing desktop version"
-            priority={true}
+            placeholder="blur"
+            blurDataURL="/hero-desktop.png"
           />
-          <Image 
-          src="/hero-mobile.png"
-          width={560}
-          height={620}
-          className="md:hidden block"
-          alt="Screenshots of the dashboard project showing mobile version"
-          priority={true}
+          <Image
+            src="/hero-mobile.png"
+            width={560}
+            height={620}
+            className="md:hidden block"
+            alt="Screenshots of the dashboard project showing mobile version"
+            placeholder="blur"
+            blurDataURL="/hero-mobile.png"
           />
         </div>
       </div>
